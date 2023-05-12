@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+    --bg-color: #f6fafb;
+    --bg-color-mitr: #d0e9fe;
+    --bg-color-blue: #6a97da;
+    --bg-color-rose: #f8d6dc;
+    --bg-color-red: #be444d;
+    --bg-color-cinz: #bbbfc0;
+}
+*{
+     border: 0;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    font-family: 'Instrument Sans', sans-serif;
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 20rem 80rem 20rem;
+    background-color: #94bfff;
+    padding: 10px;
+    height: 100%;
+}
+.container .menu{
+    background-color: var(--bg-color-mitr);
+}
+.container .menu .box1{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .menu .box2{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .menu .box3{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .menu .box4{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .menu .box5{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .menu .box6{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .menu .box7{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .menu .box8{
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.container .center{
+    background-color: var(--bg-color);
+}
+
+.container .center .mydashboard{
+    height: 5rem;
+    background-color: #fcffed;
+    display: flex;
+    align-items:center;
+}
+.container .center .mydashboard .input {
+    border: 1px solid var(--shadow);
+    display: grid;
+    grid-template-columns: 1fr 5rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    padding-right: 1.5rem;    
+    padding-left: 30rem;
+}
+.container .center .mydashboard .input input {
+    outline: none;
+    font-size: 1.6rem;
+    color: var(--primary-text);
+  }
+.container .center .mydashboard .input div {
+    background: #3767eb;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container .center .mydashboard .input i {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+}
+.container .center .goodmor{
+    display: flex;
+}
+.container .center .classes{
+    display: grid;
+    grid-template-columns: 40% 30%;
+
+
+}
+.container .dados{
+    background-color: var(--bg-color-mitr);
+}
+.container .dados .perfil img{
+    width: 10rem;
+}
